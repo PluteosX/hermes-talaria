@@ -37,9 +37,6 @@ def main():
     sells = df[df['sell']].to_dict(orient='records')
     no_sells = df[~df['sell']].to_dict(orient='records')
 
-    print(f"SELLS: {sells}")
-    print(f"NO SELLS: {no_sells}")
-
     if len(sells) > 0:
         sells_message = send_message_to_telegram(sells)
         send_message_text("<u><b>⚠️ Time to sell ⚠️</b></u>\n" + sells_message)

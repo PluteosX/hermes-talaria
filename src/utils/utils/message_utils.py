@@ -2,7 +2,6 @@ def send_message_to_telegram(cryptos):
     cryptos_message = ""
     for crypto in cryptos:
         cryptos_message += _set_message_content(crypto)
-        print(cryptos_message)
     return cryptos_message
 
 
