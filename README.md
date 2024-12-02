@@ -1,5 +1,5 @@
 # Welcome to hermes-talaria 👋
-![Version](https://img.shields.io/badge/version-1.2.1-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 
 > Hermes Talaria is a project designed to track and notify users about their cryptocurrency investments, specifically when their investment value surpasses a pre-defined threshold. It retrieves investment data from a Google Sheet and integrates with the CoinGecko API to provide real-time notifications via Telegram when significant changes occur in the user's portfolio.
 
